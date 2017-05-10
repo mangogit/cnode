@@ -1,6 +1,6 @@
 # 基于vue.js仿制cnode
 
-## demo
+## 扫下方二维码看效果
 ![扫描下方二维码看效果](https://github.com/mangogit/mangogit.github.io/raw/master/cnode/QRcode.png)
 
 ## Build Setup
