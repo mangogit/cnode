@@ -1,6 +1,7 @@
-# xing
+# 基于vue.js仿制cnode
 
-> A Vue.js project
+> demo
+![扫描下方二维码看效果](https://github.com/mangogit/mangogit.github.io/raw/master/cnode/QRcode.png)
 
 ## Build Setup
 
