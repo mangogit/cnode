@@ -1,0 +1,44 @@
+.page {
+  background-color: $colorfff;
+  height: 100%;
+  padding: $gap*3 0;
+  .message {
+    border-bottom: 1px solid $colord4;
+    padding: $gap*2 0;
+  }
+  .tabs {
+    width: 100%;
+    height: $gap*8.2;
+    margin-top: $gap*6;
+    list-style: none;
+    border-bottom: 1px solid $colord4;
+    position: relative;
+    .item {
+      width: 50%;
+      padding: $gap*2.5 0;
+      float: left;
+      font-size: 16px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .read {
+      font-size: $gap*5;
+      color: $color80;
+      position: absolute;
+      right: $gap*1;
+      top: $gap*1.5;
+      font-weight: bold;
+    }
+    .br {
+      border-right: 1px solid $colord4;
+    }
+    .selected {
+      color: $red;
+      border-bottom: 2px solid $red;
+    }
+  }
+  .icon-empty {
+    display: block;
+    font-size: $gap*25;
+  }
+}

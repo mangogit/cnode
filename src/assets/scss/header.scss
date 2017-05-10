@@ -1,0 +1,75 @@
+#hd {
+  border-bottom: 1px solid #e8e8e8;
+  &.fix-header {
+    width: 100%;
+    background-color: rgba(255,255,255,0.95);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease;
+    box-shadow: 0,0,4px rgba(0,0,0,0.25);
+    z-index: 6;
+  }
+  &.no-fix {
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  &.show {
+    transform: translateX(200px);
+  }
+}
+.nv-toolbar {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  .toolbar-nav {
+    width: 49px;
+    height: 44px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 1;
+    background: url('../images/components/nav_icon.png') no-repeat center center;
+    background-size: 19px 16px;
+  }
+  &>span {
+    display: block;
+    position: relative;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    line-height: 44px;
+    font-size: 16px;
+  }
+  .num {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #80bd01;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 10;
+  }
+  .add-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 15px;
+    color: #42b983;
+    border-radius: 5px;
+    z-index:10;
+  }
+}
+.scroll-hide {
+  overflow: hidden;
+  height: 100%;
+}
