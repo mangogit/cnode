@@ -1,5 +1,5 @@
-import Vue from 'vue';
-import $ from 'webpack-zepto';
+const Vue = require('vue');
+const $ = require('webpack-zepto');
 export default {
   install() {
     let timer = null;

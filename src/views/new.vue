@@ -26,11 +26,11 @@
 </template>
 
 <script>
-    import $ from 'webpack-zepto';
-    import nvHead from '../components/header.vue';
-    import {
+    const $ = require('webpack-zepto');
+    const nvHead = require('../components/header.vue');
+    const {
         mapGetters
-    } from 'vuex';
+    } = require('vuex');
 
     export default {
         data() {

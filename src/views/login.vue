@@ -14,8 +14,8 @@
 </template>
 
 <script>
-    import $ from 'webpack-zepto';
-    import nvHead from 'components/header.vue';
+    const $ = require('webpack-zepto');
+    const nvHead = require('components/header.vue');
     export default {
       data() {
         return {

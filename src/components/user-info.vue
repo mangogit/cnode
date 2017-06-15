@@ -12,9 +12,9 @@
     </div>
 </template>
 <script>
-    import {
+    const {
         mapGetters
-    } from 'vuex';
+    } = require('vuex');
     export default {
         replace: true,
         computed: {

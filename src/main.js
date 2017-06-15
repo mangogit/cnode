@@ -1,11 +1,11 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import $ from 'webpack-zepto';
-import routes from './routers';
-import Alert from './libs/alert';
-import store from './vuex/user';
-import FastClick from 'fastclick';
-import filters from './filters';
+const Vue = require( 'vue');
+const VueRouter = require( 'vue-router');
+const $ = require( 'webpack-zepto');
+const routes = require( './routers');
+const Alert = require( './libs/alert');
+const store = require( './vuex/user');
+const FastClick = require( 'fastclick');
+const filters = require( './filters');
 Vue.use(VueRouter);
 Vue.use(Alert);
 

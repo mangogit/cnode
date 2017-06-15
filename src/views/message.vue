@@ -40,12 +40,12 @@
     </div>
 </template>
 <script>
-import $ from 'webpack-zepto';
-import utils from '../libs/utils';
-import nvHead from 'components/header.vue';
-import {
+const $ = require('webpack-zepto');
+const utils = require('../libs/utils');
+const nvHead = require('components/header.vue');
+const {
     mapGetters
-} from 'vuex';
+} = require('vuex');
 export default {
     data() {
         return {

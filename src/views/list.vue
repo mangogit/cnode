@@ -40,10 +40,10 @@
 </template>
 
 <script>
-    import $ from 'webpack-zepto';
-    import utils from '../libs/utils.js';
-    import nvHead from 'components/header.vue';
-    import nvTop from 'components/backtotop.vue';
+    const $ = require('webpack-zepto');
+    const utils = require('../libs/utils.js');
+    const nvHead = require('components/header.vue');
+    const nvTop = require('components/backtotop.vue');
 
     export default {
         filters: {

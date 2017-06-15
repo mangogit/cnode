@@ -7,10 +7,10 @@
 </template>
 
 <script>
-    import $ from 'webpack-zepto';
-    import utils from '../libs/utils';
+   const $ = require('webpack-zepto');
+   const utils = require('../libs/utils');
     const markdown = require('markdown').markdown;
-    import { mapGetters } from 'vuex';
+   const { mapGetters } = require('vuex');
     export default {
       replace: true,
       props: ['topic', 'replyId', 'topicId', 'replyTo', 'show'],

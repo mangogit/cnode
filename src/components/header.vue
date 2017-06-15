@@ -19,7 +19,7 @@
     </div>
 </template>
 <script>
-import $ from 'webpack-zepto';
+const $ = require('webpack-zepto');
 export default {
     replace: true,
     props: {

@@ -21,7 +21,7 @@
 </template>
 
 <script>
-    import nvHead from 'components/header.vue';
+    const nvHead = require ('components/header.vue');
     export default {
       components: {
         nvHead

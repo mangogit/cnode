@@ -1,7 +1,7 @@
 'use strict';
 
-import _ from 'lodash';
-import Timeago from 'timeago.js';
+const _ = require('lodash');
+const Timeago = require('timeago.js');
 
 let getCheck = {
   checkEmail(val) {

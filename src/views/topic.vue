@@ -62,12 +62,12 @@
 </template>
 
 <script>
-    import $ from 'webpack-zepto';
-    import utils from '../libs/utils';
-    import nvHead from 'components/header.vue';
-    import nvTop from 'components/backtotop.vue';
-    import nvReply from 'components/reply.vue';
-    import { mapGetters } from 'vuex';
+    const $ = require('webpack-zepto');
+    const utils = require('../libs/utils');
+    const nvHead = require('components/header.vue');
+    const nvTop = require('components/backtotop.vue');
+    const nvReply = require('components/reply.vue');
+    const { mapGetters } = require('vuex');
     export default {
       data() {
         return {
