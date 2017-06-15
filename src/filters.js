@@ -1,4 +1,4 @@
-import utils from './libs/utils';
+const utils = require('./libs/utils');
 
 exports.getLastTimeStr = (time, friendly) => {
   if (friendly) {

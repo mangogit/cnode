@@ -1,11 +1,11 @@
-const Vue = require( 'vue');
-const VueRouter = require( 'vue-router');
-const $ = require( 'webpack-zepto');
-const routes = require( './routers');
-const Alert = require( './libs/alert');
-const store = require( './vuex/user');
-const FastClick = require( 'fastclick');
-const filters = require( './filters');
+const Vue = require('vue');
+const VueRouter = require('vue-router');
+const $ = require('webpack-zepto');
+const routes = require('./routers');
+const Alert = require('./libs/alert');
+const store = require('./vuex/user');
+const FastClick = require('fastclick');
+const filters = require('./filters');
 Vue.use(VueRouter);
 Vue.use(Alert);
 
