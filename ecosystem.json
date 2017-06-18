@@ -13,7 +13,7 @@
   ],
   "deploy": {
     "production": {
-      "user": "liwei",
+      "user": "root",
       "host": ["39.108.64.128"],
       "port": "22",
       "ref": "origin/master",
